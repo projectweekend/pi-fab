@@ -1,6 +1,7 @@
 from fabric.api import cd, env, run, local, sudo, settings
 
 
+env.use_ssh_config = True
 env.user = 'pi'
 
 
